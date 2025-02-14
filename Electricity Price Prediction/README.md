@@ -1,1 +1,2 @@
-This is a project for predicting the price of electricity given temperature, date, and year.
+This is a project for predicting the price of electricity given temperature, time of day, date, and year.
+The program trains and compares both a random forest and XGBRegressor models. The accuracy score of both models were surprisingly good, considering the rather stange variables. The model was able to capture certain natural spikes and fluctuations in day-ahead-prices, but was for obvious reasons unable to predict mechanical failures.
